@@ -1,0 +1,37 @@
+
+/* mobile and tablet */
+@media ( max-width : 1023px) {
+    .hide-on-moblie-tablet{
+        display: none;
+    }
+    .header__list-item{
+        background-color: #df3346;
+        height: 40px;
+
+
+
+    }
+
+}
+
+/* tablet */
+
+@media ( min-width: 740) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+
+}
+/* mobile */
+@media (max-width:739px) {
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .header{
+        width: 100%;
+        overflow: hidden;
+    }
+    
+
+}
