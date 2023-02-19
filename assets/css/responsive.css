@@ -1,6 +1,15 @@
 
 /* mobile and tablet */
 @media ( max-width : 1023px) {
+     .header{
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+        position: fixed;
+        z-index: 99;
+    }
     .hide-on-moblie-tablet{
         display: none;
     }
@@ -24,14 +33,13 @@
 }
 /* mobile */
 @media (max-width:739px) {
+    
     .hide-on-mobile{
         display: none;
     }
 
-    .header{
-        width: 100%;
-        overflow: hidden;
-    }
+   
+    
     
 
 }
