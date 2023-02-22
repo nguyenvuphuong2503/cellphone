@@ -2,13 +2,13 @@
 /* mobile and tablet */
 @media ( max-width : 1023px) {
      .header{
-        width: 100%;
         top: 0;
         left: 0;
         right: 0;
         overflow: hidden;
         position: fixed;
         z-index: 99;
+        
     }
     .hide-on-moblie-tablet{
         display: none;
@@ -37,7 +37,37 @@
     .hide-on-mobile{
         display: none;
     }
+    .imag-sale{
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    }
+    .home-box-menu{
 
+    }
+    .photo-home{
+        height: 155px;
+        max-width: 739px;
+    }
+    
+    .header{
+        max-width: 739px;
+    }
+    .title-banner{
+        max-width: 739px;
+    }
+    .container{
+        max-width: 739px;
+    }
+    .footer{
+        max-width: 739px;
+    }
+    .categori-desktop
+    .Home__product{
+        max-width: 739px;
+    }
    
     
     
